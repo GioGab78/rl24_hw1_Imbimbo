@@ -5,20 +5,20 @@
    ```bash
    git clone https://github.com/GioGab78/rl24_hw1_Imbimbo.git
 
-2.Con lo scopo di configurare e costruire tutti i pacchetti presenti nel workspace:
+2. Con lo scopo di configurare e costruire tutti i pacchetti presenti nel workspace:
    ```bash
       colcon build
       source install/setup.bash
 
-3.Lancio dei pacchetti:
-   3.1 Per lanciare arm_description:
+## Lancio dei pacchetti:
+1. Per lanciare arm_description:
              ```bash
                 ros2 launch arm_description display.launch.py
-   3.2 Per lanciare arm_gazebo:
+2. Per lanciare arm_gazebo:
                ```bash
                 ros2 launch arm_gazebo arm_world.launch.py
                 ros2 launch arm_gazebo arm_gazebo.launch.py
-   3.3 Per lanciare arm_control
+3. Per lanciare arm_control
                ```bash
                 ros2 launch arm_control control.launch.py
                  
