@@ -16,15 +16,23 @@
    ```bash
      ros2 launch arm_description display.launch.py
 
-2. Per lanciare arm_gazebo:
+2. Per lanciare arm_gazebo senza controlli:
 
      ```bash
       ros2 launch arm_gazebo arm_world.launch.py
 
+3. Per lanciare arm_gazebo con i controlli:
+   
+      ```bash
       ros2 launch arm_gazebo arm_gazebo.launch.py
 
-3. Per lanciare arm_control
+4. Per lanciare arm_control
 
-    ```bash
+     ```bash
       ros2 launch arm_control control.launch.py
+
+5. Avviare il nodo ros_publisher
+   
+      ```bash
+      ros2 topic pub /position_controller/command std_msgs/msg/Float64MultiArray "{data: [0.0, 0.0, 0.0, 0.0]}"
                  
