@@ -20,6 +20,8 @@
 
      ```bash
       ros2 launch arm_gazebo arm_world.launch.py
+
+     ```bash
       ros2 launch arm_gazebo arm_gazebo.launch.py
 
 3. Per lanciare arm_control
