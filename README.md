@@ -7,4 +7,18 @@
 
 2.Con lo scopo di configurare e costruire tutti i pacchetti presenti nel workspace:
    ```bash
-   colcon build
+      colcon build
+      source install/setup.bash
+
+3.Lancio dei pacchetti:
+   3.1 Per lanciare arm_description:
+             ```bash
+                ros2 launch arm_description display.launch.py
+   3.2 Per lanciare arm_gazebo:
+               ```bash
+                ros2 launch arm_gazebo arm_world.launch.py
+                ros2 launch arm_gazebo arm_gazebo.launch.py
+   3.3 Per lanciare arm_control
+               ```bash
+                ros2 launch arm_control control.launch.py
+                 
