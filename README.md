@@ -12,12 +12,15 @@
 
 ## Lancio dei pacchetti:
 1. Per lanciare arm_description:
+   
              ```bash
-                ros2 launch arm_description display.launch.py
+                $ ros2 launch arm_description display.launch.py
+
 2. Per lanciare arm_gazebo:
                ```bash
                 ros2 launch arm_gazebo arm_world.launch.py
                 ros2 launch arm_gazebo arm_gazebo.launch.py
+
 3. Per lanciare arm_control
                ```bash
                 ros2 launch arm_control control.launch.py
