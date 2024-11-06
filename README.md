@@ -34,5 +34,5 @@
 5. Avviare il nodo ros_publisher:
    
       ```bash
-      ros2 topic pub /position_controller/command std_msgs/msg/ Float64MultiArray "{data: [0.0, 0.0, 0.0, 0.0]}"
+      ros2 topic pub /position_controller/commands std_msgs/msg/Float64MultiArray "{data: [0.0, 0.0, 0.0, 0.0]}"
                  
